@@ -1,0 +1,34 @@
+<head>
+
+to initialize css
+<link href="vendor or (.file-name.)/aos/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+<section data-aos=""></section>/
+<div data-aos=""></div>
+<p data-aos=""></P> .......
+
+
+to initialize js
+<script src="vendor/aos/aos.js"></script>
+
+<script>
+   $(document).ready(function{
+     function aos_init() {
+        AOS.init({
+	duration: 1000,
+	once: true
+         });
+        }
+        $(window).on('load', function() {
+        aos_init();
+	 });
+    });
+
+
+   });
+</script>
+</body>
+
